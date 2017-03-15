@@ -24,6 +24,7 @@
         android:inputType="numberDecimal"
         android:ems="10"
         android:hint="@string/main.hint.billamount"
+        android:contentDescription="@string/main.description.billamount"
         android:textColor="@color/colorWhite"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColorHint="@color/colorLightGray"
@@ -52,6 +53,7 @@
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
             android:backgroundTint="@color/colorBlue"
+            android:contentDescription="@string/main.description.10percentage"
             android:src="@drawable/emoticon_sad"/>
         <ImageButton
             android:id="@+id/ibGoodService"
@@ -59,6 +61,7 @@
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
             android:backgroundTint="@color/colorBlue"
+            android:contentDescription="@string/main.description.15percentage"
             android:src="@drawable/emoticon_happy"/>
         <ImageButton
             android:id="@+id/ibExcellentService"
@@ -66,6 +69,7 @@
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
             android:backgroundTint="@color/colorBlue"
+            android:contentDescription="@string/main.description.20percentage"
             android:src="@drawable/emoticon"/>
 
     </LinearLayout>
@@ -107,6 +111,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/main.msg.tippercent"
+            android:contentDescription="@string/main.description.tippercent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/colorWhite"
             android:layout_marginTop="@dimen/activity_vertical_margin"/>
@@ -117,6 +122,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/main.msg.tiptotal"
+            android:contentDescription="@string/main.description.tiptotal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/colorWhite"
             android:layout_marginTop="@dimen/activity_vertical_margin"/>
@@ -150,6 +156,7 @@
         android:layout_below="@+id/tvBillTotal"
         android:gravity="center"
         android:text="@string/main.msg.billtotalresult"
+        android:contentDescription="@string/main.msg.billtotal"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/colorWhite"
         android:layout_marginTop="@dimen/activity_vertical_margin_big"

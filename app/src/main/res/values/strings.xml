@@ -7,4 +7,11 @@
     <string name="main.msg.tiptotal">$%s Tip Total</string>
     <string name="main.msg.billtotal">Bill Total</string>
     <string name="main.msg.billtotalresult">$%s</string>
+
+    <string name="main.description.billamount">Enter bill amount</string>
+    <string name="main.description.10percentage">10 percent button</string>
+    <string name="main.description.15percentage">15 percent button</string>
+    <string name="main.description.20percentage">20 percent button</string>
+    <string name="main.description.tippercent">Tip percent</string>
+    <string name="main.description.tiptotal">Tip total</string>
 </resources>

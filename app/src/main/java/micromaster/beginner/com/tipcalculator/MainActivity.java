@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         tvBillTotalAmount.setText(getString(R.string.main_msg_billtotalresult, finalBillAmount));
     }
 
+    private void setDescriptions(){
+        tvTipPercent.setContentDescription(getString(R.string.main_description_tippercent)+" "+percentage);
+        tvTipAmount.setContentDescription(getString(R.string.main_description_tiptotal)+" "+tipTotal);
+        tvBillTotalAmount.setContentDescription(getString(R.string.main_msg_billtotal)+" "+finalBillAmount);
+    }
+
     @OnClick({R.id.ibRegularService, R.id.ibGoodService, R.id.ibExcellentService})
     public void onClick(View view) {
         switch (view.getId()) {
@@ -67,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     public void onTextChanged() {
         calculateFinalBill();
         setTipValues();
+        setDescriptions();
     }
 
     private void calculateFinalBill() {
